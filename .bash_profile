@@ -116,4 +116,4 @@ curl -s https://crt.sh/\?q=%25.$1\&output\=json | jq -r '.[].name_value' | sed '
 alias python=python3
 alias pip=pip3
 
-alias pwnxss="python pwnxss.py"
+alias pwnxss="python /Users/niketh/Hacking_Tools/PwnXSS/pwnxss.py"
