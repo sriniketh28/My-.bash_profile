@@ -112,3 +112,6 @@ curl -s https://certspotter.com/api/v0/certs\?domain\=$1 | jq '.[].dns_names[]' 
 crtsh( ){
 curl -s https://crt.sh/\?q=%25.$1\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u
 }
+
+alias python=python3
+alias pip=pip3
