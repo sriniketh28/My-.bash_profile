@@ -118,5 +118,3 @@ export PATH=$GOPATH/bin:$PATH
 
 alias python=python3
 alias pip=pip3
-
-alias pwnxss="python /Users/niketh/Hacking_Tools/PwnXSS/pwnxss.py"
