@@ -113,6 +113,9 @@ crtsh( ){
 curl -s https://crt.sh/\?q=%25.$1\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u
 }
 
+export GOPATH=/Users/$USER/go
+export PATH=$GOPATH/bin:$PATH
+
 alias python=python3
 alias pip=pip3
 
