@@ -33,6 +33,42 @@ case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+# app.properties
+db.uat.user=saple user
+db.uat.passwd=secret
+
+
+#/bin/sh
+function pause(){
+   read -p "$*"
+}
+
+file="./app.properties"
+
+if [ -f "$file" ]
+then
+    echo "$file found."
+ . $file
+
+echo "User Id " $db.uat.user
+echo "user password =" $db.uat.passwd
+else
+    echo "$file not found."
+fi
+
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
