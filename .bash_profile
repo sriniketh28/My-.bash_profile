@@ -118,3 +118,5 @@ export PATH=$GOPATH/bin:$PATH
 
 alias python=python3
 alias pip=pip3
+
+alias burp="cd '/Users/niketh/Desktop/Burp Suite Pro 2020.9.2/Burp Suite Professional Edition v2020.9.2';java -noverify -javaagent:Dr.FarFar.jar -jar burpsuite_pro_v2020.9.2.jar"
